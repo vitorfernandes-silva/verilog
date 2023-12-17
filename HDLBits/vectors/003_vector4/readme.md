@@ -1,0 +1,4 @@
+# Descrição do Exercício
+Um lugar comum para ver um operador de replicação é ao estender o sinal de um número menor para um número maior, preservando seu valor assinado. Isto é feito replicando o bit de sinal (o bit mais significativo) do número menor à esquerda. Por exemplo, extensão de sinal 4'b0101 ( 5) para 8 bits resulta em 8'b00000101 (5), enquanto estende o sinal 4'b1101 (-3) a 8 bits resulta em 8'b11111101 (-3).
+
+Construa um circuito que estenda o sinal de um número de 8 bits para 32 bits. Isso requer uma concatenação de 24 cópias do bit de sinal (ou seja, replicar o bit[7] 24 vezes) seguido pelo próprio número de 8 bits.
